@@ -47,7 +47,7 @@ onMounted(() => {
 </script>
 
 <template>
-    <main class="app">
+    <main class="todo-app">
         
         <section class="greeting">
             <h2 class="title">
@@ -55,8 +55,7 @@ onMounted(() => {
             </h2>
         </section>
 
-        <section class="create-todo">
-          
+        <section class="create-todo">      
 
             <form id="new-todo-form" @submit.prevent="addTodo">
                 <h4>Что у вас в списке дел?</h4>
@@ -130,7 +129,7 @@ onMounted(() => {
 <style scoped>
 
 
-.app{
+.todo-app{
 	background: var(--light);
 	width: 100%;
 	padding: 20px;
