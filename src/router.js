@@ -2,7 +2,7 @@ import { createRouter, createWebHistory } from 'vue-router';
 import Todo from './components/Todo.vue';
 
 const routes = [
-  { path: '/todo', component: Todo }
+  { path: '/vuejs-todo-app/todo', component: Todo }
 ];
 
 const router = createRouter({
